@@ -14,5 +14,5 @@ func main() {
 			})
 	})
 
-	ginRouter.Run(":8080") 
+	ginRouter.Run("0.0.0.0:8080") 
 }
